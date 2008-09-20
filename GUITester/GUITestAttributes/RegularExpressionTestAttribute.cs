@@ -25,6 +25,7 @@ namespace GuiTester.TestAttributes
 		/// such that it can be fully displayed
 		/// </summary>
 		/// <param name="testLabel">The label for the test</param>
+        /// <param name="expression">The regular expression to match</param>
         public RegularExpressionTestAttribute(string testLabel, string expression) : base(testLabel)
 		{
             regularExpression = expression;

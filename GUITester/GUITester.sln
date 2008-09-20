@@ -1,5 +1,11 @@
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1AF87FFD-5033-477B-8D89-D171FBD77D7D}"
+	ProjectSection(SolutionItems) = preProject
+		GUITester.vsmdi = GUITester.vsmdi
+		localtestrun.testrunconfig = localtestrun.testrunconfig
+	EndProjectSection
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpSampleApp", "SampleApp\CSharpSampleApp.csproj", "{1FC40C7E-F242-4DC1-8971-AF2C85C619AD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUITestHarness", "TestHarness\GUITestHarness.csproj", "{CD94A14E-89D6-4511-90FC-0030E0FF17E5}"
@@ -13,12 +19,6 @@ EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBSampleApplication", "VBSampleApplication\VBSampleApplication.vbproj", "{CD174598-415C-4DC4-82A3-15DDF133787B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{836815C1-3762-47C6-A43F-AC657A2DDC16}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1AF87FFD-5033-477B-8D89-D171FBD77D7D}"
-	ProjectSection(SolutionItems) = preProject
-		GUITester.vsmdi = GUITester.vsmdi
-		localtestrun.testrunconfig = localtestrun.testrunconfig
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
